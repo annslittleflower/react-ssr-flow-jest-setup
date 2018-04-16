@@ -1,0 +1,24 @@
+{
+  "name": "react-ssr-flow-jest-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annslittleflower/react-ssr-flow-jest-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annslittleflower/react-ssr-flow-jest-setup/issues"
+  },
+  "homepage": "https://github.com/annslittleflower/react-ssr-flow-jest-setup#readme",
+  "devDependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.69.0"
+  }
+}
