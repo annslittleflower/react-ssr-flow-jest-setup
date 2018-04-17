@@ -1,4 +1,8 @@
 [ignore]
+.*/node_modules/.*
+.*/server/.*
+.*\.config\.js
+.*/public/.*
 
 [include]
 
@@ -7,5 +11,6 @@
 [lints]
 
 [options]
+all=true
 
 [strict]

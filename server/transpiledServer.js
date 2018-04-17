@@ -113,7 +113,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 /* <Navbar/> */
-
 var App = function (_Component) {
   _inherits(App, _Component);
 
@@ -269,14 +268,13 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function NotFound() {
+function NotFound(props) {
   return _react2.default.createElement(
     "div",
-    null,
+    { data: props.data },
     "oops"
   );
 }
-
 exports.default = NotFound;
 
 /***/ })

@@ -1,9 +1,12 @@
+//@flow
 import React from "react";
 
-function NotFound () {
-  return (
-    <div>oops</div>
-  )
+type props = {
+  data: string,
+}
+
+function NotFound(props: props) {
+  return (<div data={props.data} >oops</div>)
 }
 
 export default NotFound;

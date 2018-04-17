@@ -8,16 +8,13 @@ import NoMatch from './404';
 
 class App extends Component {
   render() {
-    return (
+    return (<div>
 
-      <div>
+      <Switch>
+        <Route exact path="/" component={NoMatch}/>
+      </Switch>
 
-        <Switch>
-          <Route exact path="/" component={NoMatch} />
-        </Switch>
-
-      </div>
-    )
+    </div>)
   }
 }
 
